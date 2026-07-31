@@ -16,11 +16,11 @@
             const numbers = [10, 20, 30, 40, 50];
 
             // Calculate sum using reduce()
-            const sum = 
+            const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+            
 
             // Display the result
-            document.getElementById("result").innerHTML =
-                
+            document.getElementById("result").innerHTML = "The sum of the array is: " + sum;
         }
     </script>
 </body>
